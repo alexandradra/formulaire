@@ -1,108 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Formulaire</title>
     <link rel="stylesheet" href="style.css" media="screen">
-  </head>
-  <body>
-    <header></header>
+</head>
+
+<body>
+    <header><h1>BananaxBanana</h1></header>
 
     <div id="intro">
-      <h1>Banana banana</h1>
-      <p>Merci de votre visite !</p>
-      <p>Nous sommes heureux de vous avoir accueilli ! Mais nous aimerions vraiment en savoir plus sur votre experience sur notre site !</p>
-      <p>Ce questionnaire vous coûtera 5 minutes de vie, et nous vous remercions pour ce beau cadeau !</p>
+        <p>Merci de votre visite !</p>
+        <p>Nous sommes heureux de vous avoir accueilli ! Mais nous aimerions vraiment en savoir plus sur votre experience sur notre site !</p>
+        <p>Ce questionnaire vous coûtera 5 minutes de vie, et nous vous remercions pour ce beau cadeau !</p>
     </div>
-
     <form class="satisfaction" action="traitement.php" method="post">
-      <fieldset class="user_experience">
-        <h2>Votre expérience de visite :</h2>
-        <p>Votre expérience par domaine :</p>
-        <table>
-          <tr>
-            <th>Domaine</th>
-            <th>Très satisfait</th>
-            <th>Assez satisfait</th>
-            <th>Peu satisfait</th>
-            <th>Pas du tout satisfait</th>
-            <th>Ne se prononce pas</th>
-          </tr>
-          <tr>
-            <td>Page d'acceuil</td>
-            <td><input type="radio" name="accueil" value="tres"/></td>
-            <td><input type="radio" name="accueil" value="assez"/></td>
-            <td><input type="radio" name="accueil" value="peu"/></td>
-            <td><input type="radio" name="accueil" value="pas"/></td>
-            <td><input type="radio" name="accueil" value="nsp"/></td>
-          </tr>
-          <tr>
-            <td>Forum</td>
-            <td><input type="radio" name="forum" value="tres"/></td>
-            <td><input type="radio" name="forum" value="assez"/></td>
-            <td><input type="radio" name="forum" value="peu"/></td>
-            <td><input type="radio" name="forum" value="pas"/></td>
-            <td><input type="radio" name="forum" value="nsp"/></td>
-          </tr>
-          <tr>
-            <td>Boutique en ligne</td>
-            <td><input type="radio" name="boutique" value="tres"/></td>
-            <td><input type="radio" name="boutique" value="assez"/></td>
-            <td><input type="radio" name="boutique" value="peu"/></td>
-            <td><input type="radio" name="boutique" value="pas"/></td>
-            <td><input type="radio" name="boutique" value="nsp"/></td>
-          </tr>
-          <tr>
-            <td>Cabinets</td>
-            <td><input type="radio" name="cabinets" value="tres"/></td>
-            <td><input type="radio" name="cabinets" value="assez"/></td>
-            <td><input type="radio" name="cabinets" value="peu"/></td>
-            <td><input type="radio" name="cabinets" value="pas"/></td>
-            <td><input type="radio" name="cabinets" value="nsp"/></td>
-          </tr>
-          <tr>
-            <td>Arthour ! Couillère !</td>
-            <td><input type="radio" name="arthour" value="tres"/></td>
-            <td><input type="radio" name="arthour" value="assez"/></td>
-            <td><input type="radio" name="arthour" value="peu"/></td>
-            <td><input type="radio" name="arthour" value="pas"/></td>
-            <td><input type="radio" name="arthour" value="nsp"/></td>
-          </tr>
-        </table>
-        <p>
-          Quelle est la raison de votre visite ? (plusieurs réponses possibles) :<br/>
-          <input type="checkbox" name="perso" id="perso" /> <label for="perso">Personnelle (je suis quelqu'un de discret)</label><br/>
-          <input type="checkbox" name="pro" id="pro" /> <label for="pro">Professionnelle</label><br/>
-          <input type="checkbox" name="google" id="google" /> <label for="google">Google m'a pas mal aidé</label><br/>
-          <input type="checkbox" name="bouffe" id="bouffe" /> <label for="bouffe">J'avais faim...</label><br/>
-        </p>
-        <p>
-          Combien noteriez-vous globalement votre expérience de visite sur notre site ? (de 0 à 10):
-          <input type="number" min=0 max=10 />
-        </p>
-      </fieldset>
+        <fieldset class="user_experience">
+            <h2>Votre expérience de visite :</h2>
+            <p>Votre expérience par domaine :</p>
+            <table>
+                <tr>
+                    <th>Domaine</th>
+                    <th>Très satisfait</th>
+                    <th>Assez satisfait</th>
+                    <th>Peu satisfait</th>
+                    <th>Pas du tout satisfait</th>
+                    <th>Ne se prononce pas</th>
+                </tr>
+                <tr>
+                    <td>Page d'acceuil</td>
+                    <td><input type="radio" name="accueil" value="tres" /></td>
+                    <td><input type="radio" name="accueil" value="assez" /></td>
+                    <td><input type="radio" name="accueil" value="peu" /></td>
+                    <td><input type="radio" name="accueil" value="pas" /></td>
+                    <td><input type="radio" name="accueil" value="nsp" /></td>
+                </tr>
+                <tr>
+                    <td>Forum</td>
+                    <td><input type="radio" name="forum" value="tres" /></td>
+                    <td><input type="radio" name="forum" value="assez" /></td>
+                    <td><input type="radio" name="forum" value="peu" /></td>
+                    <td><input type="radio" name="forum" value="pas" /></td>
+                    <td><input type="radio" name="forum" value="nsp" /></td>
+                </tr>
+                <tr>
+                    <td>Boutique en ligne</td>
+                    <td><input type="radio" name="boutique" value="tres" /></td>
+                    <td><input type="radio" name="boutique" value="assez" /></td>
+                    <td><input type="radio" name="boutique" value="peu" /></td>
+                    <td><input type="radio" name="boutique" value="pas" /></td>
+                    <td><input type="radio" name="boutique" value="nsp" /></td>
+                </tr>
+                <tr>
+                    <td>Cabinets</td>
+                    <td><input type="radio" name="cabinets" value="tres" /></td>
+                    <td><input type="radio" name="cabinets" value="assez" /></td>
+                    <td><input type="radio" name="cabinets" value="peu" /></td>
+                    <td><input type="radio" name="cabinets" value="pas" /></td>
+                    <td><input type="radio" name="cabinets" value="nsp" /></td>
+                </tr>
+                <tr>
+                    <td>Arthour ! Couillère !</td>
+                    <td><input type="radio" name="arthour" value="tres" /></td>
+                    <td><input type="radio" name="arthour" value="assez" /></td>
+                    <td><input type="radio" name="arthour" value="peu" /></td>
+                    <td><input type="radio" name="arthour" value="pas" /></td>
+                    <td><input type="radio" name="arthour" value="nsp" /></td>
+                </tr>
+            </table>
+            <p>
+                Quelle est la raison de votre visite ? (plusieurs réponses possibles) :<br/>
+                <input type="checkbox" name="perso" id="perso" /> <label for="perso">Personnelle (je suis quelqu'un de discret)</label><br/>
+                <input type="checkbox" name="pro" id="pro" /> <label for="pro">Professionnelle</label><br/>
+                <input type="checkbox" name="google" id="google" /> <label for="google">Google m'a pas mal aidé</label><br/>
+                <input type="checkbox" name="bouffe" id="bouffe" /> <label for="bouffe">J'avais faim...</label><br/>
+            </p>
+            <p>
+                Combien noteriez-vous globalement votre expérience de visite sur notre site ? (de 0 à 10):
+                <input type="number" min=0 max=10 />
+            </p>
+        </fieldset>
 
-      <fieldset class ="suggestions">
-        <h2><label for="suggestion">Que pourriez-vous nous suggérer ? :</label></h2>
-        <textarea name="suggestion" id="suggestion">Nous savons que notre site est exceptionnel, mais nous savons aussi que vous aimez râler...
+        <fieldset class="suggestions">
+            <h2><label for="suggestion">Que pourriez-vous nous suggérer ? :</label></h2>
+            <textarea name="suggestion" id="suggestion">Nous savons que notre site est exceptionnel, mais nous savons aussi que vous aimez râler...
         Alors lâchez vous !</textarea>
-      </fieldset>
+        </fieldset>
 
-      <fieldset class="contact">
-        <h2>On reste en contact ?</h2>
-        <p>Nous aimerions en savoir un peu plus sur vous, et vous envoyer de nos nouvelles de temps en temps :-)</p>
-        <p>
-          <label for="gender" required>Vous êtes :</label>
-            <select name="gender" id="gender">
-              <option value="gender_none" selected></option>
-              <option value="femme">Une femme</option>
-              <option value="homme">Un homme</option>
-              <option value="gender_nsp">Ne se prononce pas</option>
-            </select>
-          </p>
-          <p>
-            <label for="country" required>Votre pays :</label>
-              <select name="country" id="country">
+        <fieldset class="contact">
+            <h2>On reste en contact ?</h2>
+            <p>Nous aimerions en savoir un peu plus sur vous, et vous envoyer de nos nouvelles de temps en temps :-)</p>
+            <p>
+                <label for="gender" required>Vous êtes :</label>
+                <select name="gender" id="gender">
+                <option value="gender_none" selected></option>
+                <option value="femme">Une femme</option>
+                <option value="homme">Un homme</option>
+                <option value="gender_nsp">Ne se prononce pas</option>
+              </select>
+            </p>
+            <p>
+                <label for="country" required>Votre pays :</label>
+                <select name="country" id="country">
                 <option value="country_none" selected></option>
                 <optgroup label="Europe">
                   <option value="france">France</option>
@@ -129,17 +129,17 @@
                   <option value="country_nsp">Ne se prononce pas</option>
                 </optgroup>
               </select>
-            <p>Votre adresse email : <input type="email" placeholder="Ex. : john.doe@prout.com" required/></p>
-            <p>Votre profil Myspace : <input type="url" placeholder="Ex. : myspace.com/john.doe"/></p>
-      </fieldset>
-      <fieldset>
-        <h2>Et c'est fini !</h2>
-        <p>Ouiiii un grand merci à vous !<br/>
-        Vouus pouvez reprendre une activité normale !</p>
-        <input type="submit" value="Emballé c'est pesé !" />
-      </fieldset>
+                <p>Votre adresse email : <input type="email" placeholder="Ex. : john.doe@prout.com" required/></p>
+                <p>Votre profil Myspace : <input type="url" placeholder="Ex. : myspace.com/john.doe" /></p>
+        </fieldset>
+        <fieldset>
+            <h2>Et c'est fini !</h2>
+            <p>Ouiiii un grand merci à vous !<br/> Vouus pouvez reprendre une activité normale !</p>
+            <input type="submit" value="Emballé c'est pesé !" />
+        </fieldset>
     </form>
 
     <footer></footer>
-  </body>
+</body>
+
 </html>

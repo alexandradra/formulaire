@@ -1,18 +1,26 @@
 @font-face {
   font-family: 'zilap';
-  src: url("fonts/Zilap Urban Bold DEMO.ttf")
+  src: url("fonts/Zilap Urban Bold DEMO.ttf");
+}
+@font-face {
+  font-family: 'lato_reg';
+  src: url("fonts/Lato-Regular.ttf");
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: lato_reg, sans-serif;
   width: 100%;
   background-image:url("images/background_01.png")
+}
+header {
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
 }
 h1 {
   font-family: zilap;
   font-size: 2.5em;
   text-align: center;
-  background-color:
+  margin: 0;
 }
 #intro {
   text-align: center;
@@ -30,4 +38,26 @@ fieldset {
   border-right: 2px solid #B27674;
   border-radius: 15px;
   background-color: rgba(219,219,224,0.7);
+}
+#end {
+  text-align: center;
+}
+.button_radio {
+  display: block;
+  margin: 0 auto;
+}
+.button_neutral {
+  font-size: 1em;
+  font-family: lato_reg;
+  color: black;
+  padding: 7px 30px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 10px;
+  transition: all 0.4s;
+  background-color: #cccccc;
+  border-bottom: 5px solid #969696;
+}
+.button_neutral:hover {
+  background-color: #969696;
+  border-bottom: 5px solid #636363;
 }

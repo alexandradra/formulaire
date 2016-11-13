@@ -30,43 +30,43 @@
                 </tr>
                 <tr>
                     <td>Page d'acceuil</td>
-                    <td><input type="radio" name="accueil" value="tres" /></td>
-                    <td><input type="radio" name="accueil" value="assez" /></td>
-                    <td><input type="radio" name="accueil" value="peu" /></td>
-                    <td><input type="radio" name="accueil" value="pas" /></td>
-                    <td><input type="radio" name="accueil" value="nsp" /></td>
+                    <td><input type="radio" name="accueil" value="tres" class="button_radio" /></td>
+                    <td><input type="radio" name="accueil" value="assez" class="button_radio" /></td>
+                    <td><input type="radio" name="accueil" value="peu" class="button_radio" /></td>
+                    <td><input type="radio" name="accueil" value="pas" class="button_radio" /></td>
+                    <td><input type="radio" name="accueil" value="nsp" class="button_radio" /></td>
                 </tr>
                 <tr>
                     <td>Forum</td>
-                    <td><input type="radio" name="forum" value="tres" /></td>
-                    <td><input type="radio" name="forum" value="assez" /></td>
-                    <td><input type="radio" name="forum" value="peu" /></td>
-                    <td><input type="radio" name="forum" value="pas" /></td>
-                    <td><input type="radio" name="forum" value="nsp" /></td>
+                    <td><input type="radio" name="forum" value="tres" class="button_radio" /></td>
+                    <td><input type="radio" name="forum" value="assez" class="button_radio" /></td>
+                    <td><input type="radio" name="forum" value="peu" class="button_radio" /></td>
+                    <td><input type="radio" name="forum" value="pas" class="button_radio" /></td>
+                    <td><input type="radio" name="forum" value="nsp" class="button_radio" /></td>
                 </tr>
                 <tr>
                     <td>Boutique en ligne</td>
-                    <td><input type="radio" name="boutique" value="tres" /></td>
-                    <td><input type="radio" name="boutique" value="assez" /></td>
-                    <td><input type="radio" name="boutique" value="peu" /></td>
-                    <td><input type="radio" name="boutique" value="pas" /></td>
-                    <td><input type="radio" name="boutique" value="nsp" /></td>
+                    <td><input type="radio" name="boutique" value="tres" class="button_radio" /></td>
+                    <td><input type="radio" name="boutique" value="assez" class="button_radio" /></td>
+                    <td><input type="radio" name="boutique" value="peu" class="button_radio" /></td>
+                    <td><input type="radio" name="boutique" value="pas" class="button_radio" /></td>
+                    <td><input type="radio" name="boutique" value="nsp" class="button_radio" /></td>
                 </tr>
                 <tr>
                     <td>Cabinets</td>
-                    <td><input type="radio" name="cabinets" value="tres" /></td>
-                    <td><input type="radio" name="cabinets" value="assez" /></td>
-                    <td><input type="radio" name="cabinets" value="peu" /></td>
-                    <td><input type="radio" name="cabinets" value="pas" /></td>
-                    <td><input type="radio" name="cabinets" value="nsp" /></td>
+                    <td><input type="radio" name="cabinets" value="tres" class="button_radio" /></td>
+                    <td><input type="radio" name="cabinets" value="assez" class="button_radio" /></td>
+                    <td><input type="radio" name="cabinets" value="peu" class="button_radio" /></td>
+                    <td><input type="radio" name="cabinets" value="pas" class="button_radio" /></td>
+                    <td><input type="radio" name="cabinets" value="nsp" class="button_radio" /></td>
                 </tr>
                 <tr>
                     <td>Arthour ! Couillère !</td>
-                    <td><input type="radio" name="arthour" value="tres" /></td>
-                    <td><input type="radio" name="arthour" value="assez" /></td>
-                    <td><input type="radio" name="arthour" value="peu" /></td>
-                    <td><input type="radio" name="arthour" value="pas" /></td>
-                    <td><input type="radio" name="arthour" value="nsp" /></td>
+                    <td><input type="radio" name="arthour" value="tres" class="button_radio" /></td>
+                    <td><input type="radio" name="arthour" value="assez" class="button_radio" /></td>
+                    <td><input type="radio" name="arthour" value="peu" class="button_radio" /></td>
+                    <td><input type="radio" name="arthour" value="pas" class="button_radio" /></td>
+                    <td><input type="radio" name="arthour" value="nsp" class="button_radio" /></td>
                 </tr>
             </table>
             <p>
@@ -84,8 +84,8 @@
 
         <fieldset class="suggestions">
             <h2><label for="suggestion">Que pourriez-vous nous suggérer ? :</label></h2>
-            <textarea name="suggestion" id="suggestion">Nous savons que notre site est exceptionnel, mais nous savons aussi que vous aimez râler...
-        Alors lâchez vous !</textarea>
+            <textarea name="suggestion" class="text_field" rows="5" cols="50">Nous savons que notre site est exceptionnel, mais nous savons aussi que vous aimez râler...
+              Alors lâchez vous !</textarea>
         </fieldset>
 
         <fieldset class="contact">
@@ -131,11 +131,12 @@
               </select>
                 <p>Votre adresse email : <input type="email" placeholder="Ex. : john.doe@prout.com" required/></p>
                 <p>Votre profil Myspace : <input type="url" placeholder="Ex. : myspace.com/john.doe" /></p>
+                <p>Votre Skyblog : <input type="url" placeholder="Ex. : skyblog.com/johndoeBG" /></p>
         </fieldset>
-        <fieldset>
+        <fieldset id="end">
             <h2>Et c'est fini !</h2>
             <p>Ouiiii un grand merci à vous !<br/> Vouus pouvez reprendre une activité normale !</p>
-            <input type="submit" value="Emballé c'est pesé !" />
+            <input type="submit" value="Emballé c'est pesé ! Hop là !" class="button_neutral"/>
         </fieldset>
     </form>
 

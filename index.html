@@ -15,8 +15,60 @@
       <p>Ce questionnaire vous coûtera 5 minutes de vie, et nous vous remercions pour ce beau cadeau !</p>
     </div>
 
-    <form class="" action="traitement.php" method="post">
-      <fieldset class="user_experience"></fieldset>
+    <form class="satisfaction" action="traitement.php" method="post">
+      <fieldset class="user_experience">
+        <p>Votre expérience par domaine :</p>
+        <table>
+          <tr>
+            <th>Domaine</th>
+            <th>Très satisfait</th>
+            <th>Assez satisfait</th>
+            <th>Peu satisfait</th>
+            <th>Pas du tout satisfait</th>
+            <th>Ne se prononce pas</th>
+          </tr>
+          <tr>
+            <td>Page d'acceuil</td>
+            <td><input type="radio" name="accueil" value="tres"/></td>
+            <td><input type="radio" name="accueil" value="assez"/></td>
+            <td><input type="radio" name="accueil" value="peu"/></td>
+            <td><input type="radio" name="accueil" value="pas"/></td>
+            <td><input type="radio" name="accueil" value="nsp"/></td>
+          </tr>
+          <tr>
+            <td>Forum</td>
+            <td><input type="radio" name="forum" value="tres"/></td>
+            <td><input type="radio" name="forum" value="assez"/></td>
+            <td><input type="radio" name="forum" value="peu"/></td>
+            <td><input type="radio" name="forum" value="pas"/></td>
+            <td><input type="radio" name="forum" value="nsp"/></td>
+          </tr>
+          <tr>
+            <td>Boutique en ligne</td>
+            <td><input type="radio" name="boutique" value="tres"/></td>
+            <td><input type="radio" name="boutique" value="assez"/></td>
+            <td><input type="radio" name="boutique" value="peu"/></td>
+            <td><input type="radio" name="boutique" value="pas"/></td>
+            <td><input type="radio" name="boutique" value="nsp"/></td>
+          </tr>
+          <tr>
+            <td>Cabinets</td>
+            <td><input type="radio" name="cabinets" value="tres"/></td>
+            <td><input type="radio" name="cabinets" value="assez"/></td>
+            <td><input type="radio" name="cabinets" value="peu"/></td>
+            <td><input type="radio" name="cabinets" value="pas"/></td>
+            <td><input type="radio" name="cabinets" value="nsp"/></td>
+          </tr>
+          <tr>
+            <td>Arthour ! Couillère !</td>
+            <td><input type="radio" name="arthour" value="tres"/></td>
+            <td><input type="radio" name="arthour" value="assez"/></td>
+            <td><input type="radio" name="arthour" value="peu"/></td>
+            <td><input type="radio" name="arthour" value="pas"/></td>
+            <td><input type="radio" name="arthour" value="nsp"/></td>
+          </tr>
+        </table>
+      </fieldset>
       <fieldset class ="suggestions"></fieldset>
       <fieldset class="contact"></fieldset>
     </form>

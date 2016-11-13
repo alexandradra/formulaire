@@ -17,6 +17,7 @@
 
     <form class="satisfaction" action="traitement.php" method="post">
       <fieldset class="user_experience">
+        <h2>Votre expérience de visite :</h2>
         <p>Votre expérience par domaine :</p>
         <table>
           <tr>
@@ -68,9 +69,25 @@
             <td><input type="radio" name="arthour" value="nsp"/></td>
           </tr>
         </table>
+        <p>
+          Quelle est la raison de votre visite ? (plusieurs réponses possibles) :<br/>
+          <input type="checkbox" name="perso" id="perso" /> <label for="perso">Personnelle (je suis quelqu'un de discret)</label><br/>
+          <input type="checkbox" name="pro" id="pro" /> <label for="pro">Professionnelle</label><br/>
+          <input type="checkbox" name="google" id="google" /> <label for="google">Google m'a pas mal aidé</label><br/>
+          <input type="checkbox" name="bouffe" id="bouffe" /> <label for="bouffe">J'avais faim...</label><br/>
+        </p>
       </fieldset>
-      <fieldset class ="suggestions"></fieldset>
-      <fieldset class="contact"></fieldset>
+
+      <fieldset class ="suggestions">
+        <h2><label for="suggestion">Que pourriez-vous nous suggérer ? :</label></h2>
+        <textarea name="suggestion" id="suggestion">Nous savons que notre site est exceptionnel, mais nous savons aussi que vous aimez râler...
+        Alors lâchez vous !</textarea>
+      </fieldset>
+
+      <fieldset class="contact">
+        <h2>On reste en contact ?</h2>
+        <p>Nous aimerions en savoir un peu plus sur vous, et vous envoyer de nos nouvelles de temps en temps :-)</p>
+      </fieldset>
     </form>
 
     <footer></footer>

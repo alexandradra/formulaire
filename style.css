@@ -13,6 +13,7 @@ body {
   width: 100%;
   background-image:url("images/background_01.png");
   position: relative;
+  background-attachment: fixed;
 }
 header {
   background-color: rgba(255,255,255,0.5);
